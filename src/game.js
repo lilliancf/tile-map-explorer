@@ -30,6 +30,7 @@ export default class Game {
     this.screenBufferCtx = this.screenBuffer.getContext('2d');
     document.body.append(this.screenBuffer);
 
+    // map source = map.json 
     this.map = { "height":50,
  "infinite":false,
  "layers":[
